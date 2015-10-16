@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+.headline_homepage {
+	color: #ED0509;
+	font-size: xx-large;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	text-align: left;
+	text-shadow: 2px 2px 12px #C4C1C1;
+	padding-left: 69px;
+}
+
+body {
+	background-color: #A398E5;
+}
+
+.imageposition_homepage {
+	padding-left: 234px;
+
+
+}
+.bodycopy_homepage {
+	color: #F4B004;
+	padding-left: 83px;
+	padding-right: 83px;
+	padding-bottom: 0px;
+}
+
+#wrapper {
+	margin: auto;
+	float: none;
+	height: 768px;
+	width: 1024px;
+}
+#banner {
+	float: left;
+	height: 150px;
+	width: 1024px;
+}
+#navbar {
+	float: left;
+	height: 50px;
+	width: 1024px;
+}
+#left_column {
+	float: left;
+	height: 500px;
+	width: 700px;
+	overflow-y: scroll;
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(63,14,14,0.38) 100%), url(../images/leftcolumntexture.jpg);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(63,14,14,0.38) 100%), url(../images/leftcolumntexture.jpg);
+}
+
+#right_column {
+	float: right;
+	height: 500px;
+	width: 324px;
+}
+#footer {
+	float: left;
+	height: 68px;
+	width: 1024px;
+}
